@@ -1,0 +1,77 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#main{
+	width:600px;
+	height:400px;
+	background-color:#C5E7E6;
+	border:8px solid #000501;
+	border-radius:10px;
+	padding:5px;
+	display:grid;
+	grid-template: 1fr 4fr / 1fr;
+}
+
+#main > div {
+	border:7px double #476A6F;
+	font-size:30px;
+	border-radius:30px;
+	padding:10px;
+}
+
+#a{
+	background-color:#C5E7E6;
+	display:grid;
+	grid-template:1fr / 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+	padding:10px;
+}
+
+#a > input{ /* style all buttons */
+	background-color:#9DECA2;
+	border:5px solid #476A6F;
+	color:#000501;
+	border-radius:15px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+#a > input:hover{
+	background-color:#000501;
+	color:#9DECA2;
+	border:5px solid #000501;
+}
+
+#turtle{
+	font-size:20px;
+}
+
+#t{
+	border-radius:15px;
+	float:right;
+	width:200px;
+	border:5px solid #476A6F;
+}
+
+#airplane{
+	font-size:25px;
+	padding:10px;
+}
+
+#fire{
+	font-size:22px;
+	padding:10px;
+}
+
+#jelly{
+	font-size:25px;
+	padding:10px;
+}
+
+#whale{
+	font-size:25px;
+	padding:10px;
+}
